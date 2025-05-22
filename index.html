@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cool Modern UI</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyWebsite</div>
+      <ul class="nav-links">
+        <li class="close-btn"><i class="fas fa-times"></i></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button><i class="fas fa-search"></i></button>
+      </div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Discover What's Next</h1>
+      <p>Your gateway to breakthrough ideas, emerging technologies, and the minds revolutionizing our world</p>
+      <a href="#features" class="cta">Explore More</a>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Features</h2>
+    <div class="feature-cards">
+      <!-- Existing Cards -->
+      <div class="card" data-background="images/feature1.jpg">
+        <h3>Science</h3>
+        <p>Discover groundbreaking research, scientific discoveries, and the mysteries of the universe.</p>
+      </div>
+      <div class="card" data-background="images/feature2.jpg">
+        <h3>Technology</h3>
+        <p>Explore the latest advancements in gadgets, software, AI, and digital trends shaping the future.</p>
+      </div>
+      <div class="card" data-background="images/feature3.jpg">
+        <h3>Innovation</h3>
+        <p>Learn about creative breakthroughs, startups, and inventions that are changing industries.</p>
+      </div>
+      <div class="card" data-background="images/feature4.jpg">
+        <h3>Philosophy</h3>
+        <p>Dive into deep discussions on life, ethics, knowledge, and human existence.</p>
+      </div>
+      <div class="card" data-background="images/feature5.jpg">
+        <h3>Gaming</h3>
+        <p>Stay updated on video games, esports, game development, and industry trends.</p>
+      </div>
+      <div class="card" data-background="images/feature6.jpg">
+        <h3>Web Tools</h3>
+        <p>Find and explore useful online tools that enhance productivity and creativity.</p>
+      </div>
+  
+      <div class="card" data-background="images/feature7.jpg">
+        <h3>Movies & TV</h3>
+        <p>Get reviews, discussions, and insights on popular films and television series.</p>
+      </div>
+      <div class="card" data-background="images/feature8.jpg">
+        <h3>Books & Literature</h3>
+        <p>Discover must-read books, literary reviews, and discussions on storytelling.</p>
+      </div>
+      <div class="card" data-background="images/feature9.jpg">
+        <h3>Sports</h3>
+        <p>Keep up with the latest news, matches, and trends from the world of sports.
+        </p>
+      </div>
+      <div class="card" data-background="images/feature10.jpg">
+        <h3>Health & Fitness</h3>
+        <p>Learn about wellness, workouts, mental health, and healthy lifestyle tips.</p>
+      </div>
+      <div class="card" data-background="images/feature11.jpg">
+        <h3>Global Issues </h3>
+        <p>Stay informed on social, political, and environmental challenges around the world.</p>
+      </div>
+      <div class="card" data-background="images/feature12.jpg">
+        <h3>Personal Development</h3>
+        <p>Get tips on self-improvement, productivity, motivation, and life skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+<section id="about" class="about">
+  <div class="about-content">
+    <h2>About Us</h2>
+    <p>We are a passionate team of researchers, writers, and technologists dedicated to exploring and explaining the most important developments shaping our future. Our mission is to make complex topics accessible to everyone.</p>
+    <a href="#contact" class="cta">Get in Touch</a>
+  </div>
+  <div class="about-image">
+    <img src="images/about.jpg" alt="About Us">
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-form">
+    <form action="#" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="cta">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <footer id="contact">
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
