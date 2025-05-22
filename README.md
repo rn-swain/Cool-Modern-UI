@@ -35,4 +35,4 @@ A sleek, responsive website template featuring cutting-edge UI elements with smo
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rn-swain/Cool-Modern-UI.git
+   https://github.com/rn-swain/Cool-Modern-UI.git
